@@ -1,0 +1,94 @@
+h1{
+    padding-left: 5%;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold; 
+    margin:auto;
+    width:50%;
+
+}
+h3{ 
+    padding-left: 8%;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic; 
+ }
+h4{
+  font-weight: 700;  
+  background-color: rgb(138, 175, 180);
+  color: blanchedalmond;
+  /* this falls under the mb-3 class and changing with mess things up */
+}
+.mb-3{ 
+    padding-left: 12%;
+    font-family:'Courier New', Courier, monospace;
+ }
+ body{ 
+    background-color:blanchedalmond
+ }
+ .container{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(138, 175, 180);
+  border-radius: 20px;
+ }
+ .container #dycalendar{
+  width:100%;
+  padding: 20px;
+ }
+ #dycalendar table{
+  width:100%;
+  margin-top: 40px;
+ }
+ #dycalendar table td{
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 700;
+  font-size: 20px;
+  color: blanchedalmond;
+ }
+ #dycalendar .dycalendar-header .dycalendar-span-month-year{
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 700;
+  font-size: 30px;
+  color: blanchedalmond;
+ }
+#dycalendar .dycalendar-header .dycalendar-prev-next-btn prev-btn{
+color:blanchedalmond;
+}
+/* not changing the color of the togals  */
+#dycalendar .dycalendar-header{
+  padding-top: 50px;
+}
+#Username{
+  margin: auto;
+  width: 50%;
+  padding-top: 20px;
+  padding-left: 50px;
+  background:blanchedalmond
+}
+#Password{
+  margin: auto;
+  width: 50%;
+  padding: 0px;
+  padding-left: 50px;
+}
+#login_obj{
+  padding-top: 30%;
+}
+p{
+  padding-left: 5%;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700; 
+    margin:auto;
+    width:50%;
+  padding-top: 20px;
+}
+#save_button{ 
+  color: rgb(138, 175, 180); 
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 700; 
+  margin:auto;
+  width:50%;
+  padding-top: 20px;
+  padding-left: 20%;
+  padding-bottom: 30px;
+}
